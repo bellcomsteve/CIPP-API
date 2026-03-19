@@ -116,7 +116,7 @@ function Push-CIPPDBCacheData {
         if ($ConditionalAccessCapable) {
             $ConditionalAccessCacheFunctions = @(
                 'ConditionalAccessPolicies'
-                'AuthenticationFlowsPolicy'
+                #'AuthenticationFlowsPolicy'
                 'CredentialUserRegistrationDetails'
                 'UserRegistrationDetails'
             )
@@ -141,7 +141,7 @@ function Push-CIPPDBCacheData {
                 'ServicePrincipalRiskDetections'
                 'RiskDetections'
                 'RoleEligibilitySchedules'
-                'RoleAssignmentSchedules'
+                'RoleAssignmentScheduleInstances'
                 'RoleManagementPolicies'
             )
             foreach ($CacheFunction in $P2CacheFunctions) {
