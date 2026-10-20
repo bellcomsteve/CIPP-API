@@ -1,10 +1,12 @@
 {
   "window": {
-    "days": 7
+    "days": 7,
+    "premiumDays": 30
   },
   "caps": {
     "auditLogPages": 10,
-    "mailActivityPages": 10
+    "mailActivityPages": 10,
+    "peerLookups": 20
   },
   "score": {
     "thresholds": {
